@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(206, 206, 206);
+}
+
+#title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.09em;
+    word-spacing: 0.4em;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+#desc{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    letter-spacing: normal;
+    word-spacing: 0.2em;
+    text-align: center;
+    margin: 5px;
+}
+
+#survey-form{
+    width: 400px;
+    /* margin: auto; */
+}
+
+.box{
+    margin: 5px;
+    padding: 3px;
+}
+
+#name,
+#surname,
+#email,
+#role,
+#feature,
+#commet{
+    width: 200px;
+    height: 30px;
+}
